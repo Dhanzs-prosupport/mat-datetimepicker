@@ -1,8 +1,8 @@
 {
-  "name": "@mat-datetimepicker/core",
+  "name": "@prosupport/material-datetimepicker-core",
   "version": "2.0.2",
-  "repository": "https://github.com/kuhnroyal/mat-datetimepicker.git",
-  "author": "PL <kuhnroyal@gmail.com>",
+  "repository": "https://github.com/Dhanzs-prosupport/mat-datetimepicker.git",
+  "author": "HD <daniel.hanzs@prosupport.io>",
   "license": "MIT",
   "peerDependencies": {
     "@angular/core": "^7.1.1",

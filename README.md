@@ -1,28 +1,20 @@
-# Material Datetimepicker for @angular/material 6.x
+# Material Datetimepicker for @angular/material 7.x
 
-This is the main branch for @angular/material 6.x.
-
-You can find the Angular 5 version on the `1.x` branch.
+This is the main branch for @angular/material 7.x.
 
 ### Description
 
-The datetimepicker is taken from [Promact/md2](https://github.com/Promact/md2) and modified to use @angular/material as base and added theming support.
-
-Like the @angular/material datepicker it contains a native-datetime-adapter as well as a moment-datetime-adapter.
-
-[![Latest Stable Version](https://img.shields.io/npm/v/@mat-datetimepicker/core.svg)](https://www.npmjs.com/package/@mat-datetimepicker/core)
-[![License](https://img.shields.io/npm/l/@mat-datetimepicker/core.svg)](https://www.npmjs.com/package/@mat-datetimepicker/core)
-[![NPM Downloads](https://img.shields.io/npm/dm/@mat-datetimepicker/core.svg)](https://www.npmjs.com/package/@mat-datetimepicker/core)
+The datetimepicker is taken from [Promact/md2](https://github.com/Promact/md2), modified to use @angular/material as base and added theming support and forked from [kuhnroyal/mat-datetimepicker](https://github.com/kuhnroyal/mat-datetimepicker#readme) to support angular 7.x.
 
 ### Installation
 Install:
 ```
-yarn install @mat-datetimepicker/core
+yarn install @angular/material-datetimepicker/core
 ```
 And for the moment adapter:
 ```
 yarn install @angular/material-moment-adapter
-yarn install @mat-datetimepicker/moment
+yarn install @prosupport//material-datetimepicker-moment
 ``` 
 
 ### Performing a local build
@@ -38,14 +30,14 @@ cd my-project
 Add the dependencies to your `package.json`:
 ```
 "dependencies": {
-    "@mat-datetimepicker/core": "2.0.0",
-    "@mat-datetimepicker/moment": "2.0.0",
+    "@prosupport/material-datetimepicker-core": "x.x.x",
+    "@prosupport/material-datetimepicker-moment": "x.x.x",
 }
 ```
 Link the local built modules:
 ```
-yarn link "@mat-datetimepicker/core"
-yarn link "@mat-datetimepicker/moment"
+yarn link "@prosupport/material-datetimepicker-core"
+yarn link "@prosupport/material-datetimepicker-moment"
 ``` 
 
 ### Import  & configuration
