@@ -12,7 +12,8 @@
     "build:lib/moment": "rimraf dist/moment && ng build moment && copy-files-from-to projects/moment/copy-files.json",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "release": "release-it"
   },
   "private": true,
   "dependencies": {
@@ -53,6 +54,7 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "ng-packagr": "^4.4.5",
     "protractor": "~5.4.1",
+    "release-it": "^8.2.0",
     "rimraf": "^2.6.2",
     "ts-node": "~7.0.1",
     "tsickle": "^0.34.0",
